@@ -1,0 +1,19 @@
+node_modules/
+dist/
+.npm-cache/
+.npmrc
+*.log
+.env
+.env.*
+!.env.example
+
+# Local prototype notes and QA captures
+/AGENTS.md
+/design-qa.md
+/qa/
+
+# Editor and OS files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
