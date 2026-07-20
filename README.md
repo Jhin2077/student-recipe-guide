@@ -15,4 +15,4 @@ npm run dev
 npm run build
 ```
 
-项目使用 Vite 与 React 构建，并通过 GitHub Actions 自动部署至 GitHub Pages。
+项目通过 GitHub Actions 自动部署至 GitHub Pages。
