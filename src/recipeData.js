@@ -15,7 +15,7 @@ const dishImages = {
   UK: dishAsset("uk-tikka-masala.png"),
   CA: dishAsset("canada-maple-salmon.png"),
   SEA: dishAsset("sea-basil-chicken.png"),
-  CN: dishAsset("cn-home-cooking.png"),
+  CN: dishAsset("cn-tomato-eggs.png"),
 };
 
 const makeRecipe = (region, recipe) => ({
@@ -374,6 +374,7 @@ export const starterRecipes = [
 
   makeRecipe("CN", {
     id: "cn-tomato-eggs",
+    image: dishAsset("cn-tomato-eggs.png"),
     title: "番茄炒蛋",
     english: "Tomato & Egg Stir-fry",
     category: "QUICK",
@@ -396,6 +397,7 @@ export const starterRecipes = [
   }),
   makeRecipe("CN", {
     id: "cn-mapo-tofu",
+    image: dishAsset("cn-mapo-tofu.png"),
     title: "麻婆豆腐",
     english: "Mapo Tofu",
     category: "RICE",
@@ -418,6 +420,7 @@ export const starterRecipes = [
   }),
   makeRecipe("CN", {
     id: "cn-kung-pao-chicken",
+    image: dishAsset("cn-kung-pao-chicken.png"),
     title: "宫保鸡丁",
     english: "Kung Pao Chicken",
     category: "MAIN",
@@ -440,6 +443,7 @@ export const starterRecipes = [
   }),
   makeRecipe("CN", {
     id: "cn-yuxiang-pork",
+    image: dishAsset("cn-yuxiang-pork.png"),
     title: "鱼香肉丝",
     english: "Yu-shiang Shredded Pork",
     category: "MAIN",
@@ -462,6 +466,7 @@ export const starterRecipes = [
   }),
   makeRecipe("CN", {
     id: "cn-potato-pepper",
+    image: dishAsset("cn-potato-pepper.png"),
     title: "青椒土豆丝",
     english: "Potato & Pepper Stir-fry",
     category: "QUICK",
@@ -484,6 +489,7 @@ export const starterRecipes = [
   }),
   makeRecipe("CN", {
     id: "cn-yangzhou-fried-rice",
+    image: dishAsset("cn-yangzhou-fried-rice.png"),
     title: "扬州炒饭",
     english: "Yangzhou Fried Rice",
     category: "RICE",
@@ -506,6 +512,7 @@ export const starterRecipes = [
   }),
   makeRecipe("CN", {
     id: "cn-red-braised-pork",
+    image: dishAsset("cn-red-braised-pork.png"),
     title: "红烧肉",
     english: "Red-braised Pork Belly",
     category: "COMFORT",
@@ -528,6 +535,7 @@ export const starterRecipes = [
   }),
   makeRecipe("CN", {
     id: "cn-hot-sour-soup",
+    image: dishAsset("cn-hot-sour-soup.png"),
     title: "酸辣汤",
     english: "Hot & Sour Soup",
     category: "SOUP",
@@ -550,6 +558,7 @@ export const starterRecipes = [
   }),
   makeRecipe("CN", {
     id: "cn-scallion-noodles",
+    image: dishAsset("cn-scallion-noodles.png"),
     title: "葱油拌面",
     english: "Scallion Oil Noodles",
     category: "NOODLES",
@@ -572,6 +581,7 @@ export const starterRecipes = [
   }),
   makeRecipe("CN", {
     id: "cn-pork-cabbage-dumplings",
+    image: dishAsset("cn-pork-cabbage-dumplings.png"),
     title: "白菜猪肉水饺",
     english: "Pork & Cabbage Dumplings",
     category: "DUMPLING",
